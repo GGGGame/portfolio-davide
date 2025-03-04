@@ -1,0 +1,14 @@
+{
+    "description": {
+        "title": "Full-Stack Developer",
+        "text_1": "Sono uno Sviluppatore Full-Stack con una passione per la creazione di applicazioni web. Ho esperienza con JavaScript, React, Node.js ed Express.js. Sono sempre alla ricerca di nuove sfide e opportunità per imparare nuove tecnologie.",
+        "text_2": "Attualmente sto lavorando a un progetto personale che prevede la creazione di un'applicazione web per la gestione delle attività. Sto utilizzando React per il front-end e Node.js per il back-end. Sto anche imparando a conoscere i database e come utilizzarli nelle applicazioni web.",
+        "text_3": "Sto cercando un lavoro come Sviluppatore Full-Stack dove posso utilizzare le mie competenze per creare applicazioni web che aiutino le persone a risolvere problemi e semplificare la loro vita. Sono aperto a lavorare in team e collaborare con altri sviluppatori per creare software di qualità."
+    },
+    "experience": {
+        "current": "corrente",
+        "uniwix": "Responsabile dell'implementazione di nuove funzionalità e del debugging del software gestionale ERP. Lavoro su un codice legacy utilizzando PHP, PrototypeJS, jQuery, HTML5 e MySQL. Le principali attività includono l'ottimizzazione delle query SQL, lo sviluppo della logica dinamica di business e l'assicurazione dell'efficienza del sistema. Il versionamento è gestito tramite Git e flussi di lavoro basati su FTP.",
+        "develhope": "Responsabile della valutazione degli esercizi degli studenti e della condivisone di feedback sui loro progressi",
+        "wonderfulitaly": "Responsabile del debug della web app, della creazione di stili e banner responsive, dell'implementazione di REST API/SOAP, dello sviluppo di microservizi, della creazione di nuovi contenuti per il software CRM e dell'estrazione di dati/tabelle tramite SQL. Ho lavorato su diverse task impegnative di cui sono ancora molto fiero. Le tecnologie utilizzate includono Linux, Git, PHP, JavaScript, jQuery, CSS, SCSS, MySQL, PostgreSQL, Docker, Doctrine e Symfony."
+    }
+}
