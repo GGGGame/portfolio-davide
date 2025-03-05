@@ -7,6 +7,7 @@ import { ThemeMode } from './components/ThemeMode';
 import { InformationContainer } from './components/InformationContainer';
 import { InformationCard } from './components/InformationCard';
 import { Links } from './components/Links';
+import { Analytics } from "@vercel/analytics/react"
 
 export const App = () => {
   const [theme, setTheme] = useState(false);
@@ -33,6 +34,7 @@ export const App = () => {
       </div>
       <Links theme={style}/>
       <ThemeMode theme={style} themeChange={handleThemeChange}/>
+      <Analytics />
     </div>
   );
 };
