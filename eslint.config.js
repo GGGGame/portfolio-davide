@@ -33,6 +33,8 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      test: /\.svg$/,
+      use: ['@svgr/webpack'],
       "react/prop-types": 0
     },
   },

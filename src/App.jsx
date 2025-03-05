@@ -6,6 +6,7 @@ import { LanguageSelect } from './components/LanguageSelect';
 import { ThemeMode } from './components/ThemeMode';
 import { InformationContainer } from './components/InformationContainer';
 import { InformationCard } from './components/InformationCard';
+import { Links } from './components/Links';
 
 export const App = () => {
   const [theme, setTheme] = useState(false);
@@ -17,9 +18,9 @@ export const App = () => {
   }
 
   return (
-    <div className="container-page relative py-25 relative">
+    <div className="container-page relative">
       <ParticlesBackground theme={theme}/>
-      <div className='flex items-end justify-between'>
+      <div className='app-container flex items-end justify-between'>
         <div>
           <LanguageSelect theme={style}/>
           <InformationContainer theme={style}>
@@ -30,6 +31,7 @@ export const App = () => {
           <InformationCard theme={style}/>
         </InformationContainer>
       </div>
+      <Links theme={style}/>
       <ThemeMode theme={style} themeChange={handleThemeChange}/>
     </div>
   );

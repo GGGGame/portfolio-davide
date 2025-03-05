@@ -1,24 +1,15 @@
-import React, { useEffect, useState } from "react";
+import Svgs from '../config/svgLoader.js';
 
 export const Skills = ({ theme }) => {
-    const [svgs, setSvgs] = useState([]);
-
-    useEffect(() => {
-      // Usa require.context per ottenere tutti i file SVG dalla cartella
-      const svgContext = require.context('../path/to/svg/folder', false, /\.svg$/);
-  
-      // Carica tutti gli SVG
-      const loadedSvgs = svgContext.keys().map((key) => {
-        const svgPath = svgContext(key).default;
-        return <img src={svgPath} alt={key} key={key} />;
-      });
-  
-      setSvgs(loadedSvgs);
-    }, []);
-
     return (
-           <div className={`py-5 container-description ${theme}`}>
-                {Array.map()}
+           <div className={`py-5 container-description flex flex-wrap ${theme}`}>
+                {Object.entries(Svgs).map(([name, Svg]) => {
+                    return (<div>
+                                <img className={`svgImg mx-2 my-3 ${theme}`} key={name} src={Svg} alt={name} />
+                                <p className='svg-text text-center font-bold'>{name}</p>
+                            </div>
+                        )
+                })}
            </div>
        )
    }

@@ -2,7 +2,7 @@ import '../assets/styles/themeMode.css';
 
 export const ThemeMode = ({ theme, themeChange }) => {
     return (
-        <div className="absolute -bottom-10 right-0">
+        <div className="theme-container absolute bottom-20 right-0">
             <div>
                 <label className="switch-theme">
                     <input

@@ -1,3 +1,11 @@
+:root {
+    --inverted-light-bg: rgba(255, 255, 255, 0.686);
+    --inverted-dark-bg: rgba(73, 73, 73, 0.822);
+    --inverted-dark-hover: rgba(0, 0, 0, 0.825);
+    --inverted-light-shadow: #00000091;
+    --inverted-dark-shadow: #ffffff91;
+}
+
 .slider-container {
     width: 30px;
     height: 30px;
@@ -32,4 +40,36 @@
 .slider-theme {
     font-size: 20px;
     font-weight: bold;
+}
+
+.slider-link {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.889);
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+    backdrop-filter: blur(2px);
+    box-shadow: 0px 0px 25px var(--inverted-light-shadow);
+    transition: .5s ease;
+    filter: invert(0.7);
+}
+
+.slider-link.light {
+    /* background-color: var(--inverted-light-bg); */
+    box-shadow: 0px 0px 25px var(--inverted-light-shadow);
+    filter: invert(0.2);
+}
+
+.slider-link.light:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 25px black;
+    filter: invert(0);
+}
+
+.slider-link:hover {
+    filter: invert(1);
+    background-color: white;
+    transform: scale(110%);
+    box-shadow: 0px 0px 25px black;
 }
