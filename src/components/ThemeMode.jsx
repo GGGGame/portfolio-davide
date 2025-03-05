@@ -1,20 +1,13 @@
 import '../assets/styles/themeMode.css';
+import Moon from '../assets/moon-1.svg';
+import Sun from '../assets/sun.svg';
 
 export const ThemeMode = ({ theme, themeChange }) => {
     return (
-        <div className="theme-container absolute bottom-20 right-0">
-            <div>
-                <label className="switch-theme">
-                    <input
-                        type="checkbox"
-                        className="switch-input"
-                        onChange={themeChange}
-                    />
-                    <div className={`slider-container ${theme}`}>
-                        <p className="slider-theme">{theme === 'dark' ? '⏾' : '🌣'}</p>
-                    </div>
-                </label>
+        <div className='links-container absolute bottom-20 right-0'>
+            <div className={`svgLink theme ${theme}`} onClick={themeChange}>
+                <img src={theme === 'dark' ? Moon : Sun} alt='svg-theme'/>
             </div>
         </div>
-    );
+    )
 }

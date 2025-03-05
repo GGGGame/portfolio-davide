@@ -69,6 +69,10 @@ h5 {
   max-width: 31.25rem;
 }
 
+.card-btn-container {
+  justify-content: center;
+}
+
 .card-btn-container.light,
 .card-btn-container.dark {
   display: flex;
@@ -93,7 +97,7 @@ h5 {
   border: 15px;
   width: 31.25rem;
   max-width: 31.25rem;
-  height: 45rem;
+  height: 37rem;
   border-radius: 5%;
   background-color: var(--blue-transparent);
   backdrop-filter: blur(5px);
@@ -205,18 +209,13 @@ h5 {
     width: 25rem;
   }
 
-  .theme-container {
-    bottom: 0;
-    right: 4rem;
-  }
-
   .links-container {
     bottom: 0;
-    left: 4rem;
+    padding: 0px 25px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 380px) {
   .container-about {
     width: 21rem;
   }
