@@ -7,8 +7,14 @@ import Discord from '../assets/links/discord.svg';
 export const Links = ({ theme }) => {
 
     const openLink = (link) => {
-        window.open(link, "_blank");
-    }
+        const newTab = window.open(link, "_blank");
+        if (newTab) {
+            newTab.opener = null;
+        } else {
+            window.location.href = link;
+        }
+    };
+    
 
     return (
         <div className="links-container absolute bottom-20 left-0">
