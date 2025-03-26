@@ -1,10 +1,10 @@
 {
     "redirects": [
-      {
-        "src": "/(.*)",
+    {
+        "source": "/index(.html|.php)?",
         "destination": "/",
         "permanent": true
-      }
+    }
     ],
     "cleanUrls": true
   }
