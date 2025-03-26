@@ -16,10 +16,6 @@ export const ParticlesBackground = ({ theme }) => {
     });
   }, []);
 
-  // const particlesLoaded = (container) => {
-  //   console.log(container);
-  //   console.log(theme);
-  // };
 
   const options = useMemo(
     () => (theme ? particlesWhite : particlesBlack),
@@ -30,7 +26,6 @@ export const ParticlesBackground = ({ theme }) => {
     return (
       <Particles
         id="tsparticles"
-        // particlesLoaded={particlesLoaded}
         options={options}
       />
     );

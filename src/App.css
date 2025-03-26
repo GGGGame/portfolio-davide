@@ -154,6 +154,10 @@ h5 {
   transition: .2s ease;
 }
 
+.svgImg.projects {
+  width: 3.5rem;
+}
+
 .svgImg.light {
   filter: invert(0.6);
 }
@@ -178,6 +182,8 @@ h5 {
   filter: invert(1);
   transform: scale(1.1);
 }
+
+
 
 @media screen and (min-width: 2164px) {
   .app-container {

@@ -3,19 +3,11 @@ import links from "../assets/json/links.json";
 import Linkedin from '../assets/links/linkedin.svg';
 import GitHub from '../assets/links/github.svg';
 import Discord from '../assets/links/discord.svg';
+import { linksManager } from '../hooks/linksManager';
 
 export const Links = ({ theme }) => {
-
-    const openLink = (link) => {
-        const newTab = window.open(link, "_blank");
-        if (newTab) {
-            newTab.opener = null;
-        } else {
-            window.location.href = link;
-        }
-    };
+    const openLink = linksManager();
     
-
     return (
         <div className="links-container absolute bottom-20 left-0">
             <div className='flex space-x-4'>
