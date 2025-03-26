@@ -1,0 +1,15 @@
+{
+    "redirects": [
+      {
+        "source": "/index.html",
+        "destination": "/",
+        "permanent": true
+      },
+      {
+        "source": "https://www.davide-ricca.com",
+        "destination": "https://davide-ricca.com",
+        "permanent": true
+      }
+    ]
+  }
+  
