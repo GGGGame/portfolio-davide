@@ -11,7 +11,7 @@ export const Projects = ({ theme }) => {
             <div className="">
                 <div className="flex flex-wrap justify-center">
                     <div className="py-1 px-2 exp-single flex" onClick={() => openLink(links.sentinelApi)}>
-                        <img className={`svgImg projects mx-2 my-3 ${theme}`} src={nodesvg} alt="github" />
+                        <img className={`svgImg projects mx-2 my-3 ${theme}`} src={nodesvg} alt="github" loading="lazy"/>
                         <div className='project-description'>
                             <h4 className="py-1 pl-3">SentinelApi</h4>
                             <div className="py-2 pl-3">

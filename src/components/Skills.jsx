@@ -5,7 +5,7 @@ export const Skills = ({ theme }) => {
            <div className={`py-5 container-description flex flex-wrap ${theme}`}>
                 {Object.entries(Svgs).map(([name, Svg]) => {
                     return (<div key={name}>
-                                <img className={`svgImg mx-2 my-3 ${theme}`} src={Svg} alt={name} />
+                                <img className={`svgImg mx-2 my-3 ${theme}`} src={Svg} alt={name} loading='lazy'/>
                                 <p className='svg-text text-center font-bold'>{name}</p>
                             </div>
                         )
