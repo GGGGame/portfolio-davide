@@ -4,7 +4,7 @@ export const AboutMe = () => {
     const { t } = useTranslation();
     return (
         <>
-        <h2 className="text-bold">Davide Ricca</h2>
+        <h1 className="text-bold">Davide Ricca</h1>
         <h4>{t('description.title')}</h4>
         <div className="py-10">
             <p>
