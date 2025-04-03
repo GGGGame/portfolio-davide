@@ -7,7 +7,7 @@ export const WonderfulItaly = ({ theme }) => {
             <h4 className="py-1">WonderfulItaly <span className="ml-3">Full-stack Developer</span></h4>
             <h5>09 / 2022 - 03 / 2024</h5>
             <div className="py-2">
-                <p>{t("experience.uniwix")}</p>
+                <p>{t("experience.wonderfulitaly")}</p>
             </div>
         </div>
     )
