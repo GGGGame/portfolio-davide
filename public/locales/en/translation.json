@@ -9,7 +9,7 @@
         "current": "present",
         "uniwix": "Responsible for implementing new features and debugging the ERP software. Working with a legacy codebase using vanilla PHP, PrototypeJS, jQuery, HTML5, and MySQL. Main tasks include optimizing SQL queries, developing dynamic business logic, and ensuring system efficiency. Version control is managed through Git and FTP-based workflows.",
         "develhope": "Responsible for grading students exercises and providing feedback on their progress.",
-        "wonderfulitaly": "Responsible for debugging the web app, creating responsive styles and banners, implementing REST API/SOAP, developingmicroservices, creating new content for the CRM software, andextracting data/tables using SQL. Worked on several challenging tasks that I am still proud of. Technologies used included Linux, Git, PHP, JavaScript, jQuery, CSS, SCSS, MySQL,PostgreSQL, Docker, Doctrine, and Symfony."
+        "wonderfulitaly": "Responsible for debugging the web app, creating responsive styles and banners, implementing REST API/SOAP, developing microservices, creating new content for the CRM software, andextracting data/tables using SQL. Worked on several challenging tasks that I am still proud of. Technologies used included Linux, Git, PHP, JavaScript, jQuery, CSS, SCSS, MySQL,PostgreSQL, Docker, Doctrine, and Symfony."
     },
     "projects": {
         "sentinel_api": "SentinelApi is an API Gateway and API Key management system designed to help develop and monitor your APIs more easily."
