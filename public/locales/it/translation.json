@@ -1,9 +1,9 @@
 {
     "description": {
         "title": "Full-Stack Developer",
-        "text_1": "Sono uno Sviluppatore Full-Stack con una passione per la creazione di applicazioni web. Ho esperienza con JavaScript, React, Node.js ed Express.js. Sono sempre alla ricerca di nuove sfide e opportunità per imparare nuove tecnologie.",
-        "text_2": "Attualmente sto lavorando a un progetto personale che prevede la creazione di un'applicazione web per la gestione delle attività. Sto utilizzando React per il front-end e Node.js per il back-end. Sto anche imparando a conoscere i database e come utilizzarli nelle applicazioni web.",
-        "text_3": "Sto cercando un lavoro come Sviluppatore Full-Stack dove posso utilizzare le mie competenze per creare applicazioni web che aiutino le persone a risolvere problemi e semplificare la loro vita. Sono aperto a lavorare in team e collaborare con altri sviluppatori per creare software di qualità."
+        "text_1": "Full-Stack Developer con quasi 3 anni di esperienza nello sviluppo web, specializzato in PHP, TypeScript, React, Node.js e ambienti back-end ad alte prestazioni",
+        "text_2": "Ho avuto la fortuna di lavorare in contesti dinamici dove ho potuto acquisire competenze trasversali sia sul front-end che sul back-end, con particolare attenzione alla scalabilità e alla qualità del codice.",
+        "text_3": "Attualmente sto portando avanti un progetto OpenSource a cui tengo molto: SentinelApi, un API Gateway e Key Management System ispirato a Kong. Il progetto nasce dal desiderio di esplorare infrastrutture scalabili e soluzioni personalizzate per la gestione delle API"
     },
     "experience": {
         "current": "corrente",

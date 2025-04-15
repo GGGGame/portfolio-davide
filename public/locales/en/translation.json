@@ -1,10 +1,10 @@
 {
     "description": {
         "title": "Full-Stack Developer",
-        "text_1": "I am a Full-Stack Developer with a passion for creating web applications. I have experience with JavaScript, React, Node.js, and Express.js. I am always looking for new challenges and opportunities to learn new technologies.",
-        "text_2": "I am currently working on a personal project that involves creating a web application for managing tasks. I am using React for the front-end and Node.js for the back-end. I am also learning about databases and how to use them in web applications.",
-        "text_3": "I am looking for a job as a Full-Stack Developer where I can use my skills to create web applications that help people solve problems and make their lives easier. I am open to working in a team and collaborating with other developers to create great software."
-    },
+        "text_1": "Full-Stack Developer with almost 3 years of experience in web development, specialized in PHP, TypeScript, React, Node.js and high-performance back-end environments.",
+        "text_2": "I had the chance to work in dynamic environments where I learned different skills in both front-end and back-end, with a focus on scalability and code quality.",
+        "text_3": "Right now I'm working on an Open Source project that I really care about: SentinelApi, an API Gateway and Key Management System inspired by Kong. The project comes from my wish to explore scalable infrastructures and custom solutions for API management."
+        },
     "experience": {
         "current": "present",
         "uniwix": "Responsible for implementing new features and debugging the ERP software. Working with a legacy codebase using vanilla PHP, PrototypeJS, jQuery, HTML5, and MySQL. Main tasks include optimizing SQL queries, developing dynamic business logic, and ensuring system efficiency. Version control is managed through Git and FTP-based workflows.",
